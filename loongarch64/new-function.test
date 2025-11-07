@@ -1,0 +1,7 @@
+#!/bin/bash
+source $KPATCH_TEST_LIBRARY
+
+# 0000000000000008 t kpatch_n_tty_write
+# 0000000000000008 t n_tty_write
+
+assert_num_funcs 2
